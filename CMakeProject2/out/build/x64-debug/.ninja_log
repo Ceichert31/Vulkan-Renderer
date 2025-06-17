@@ -1,0 +1,24 @@
+# ninja log v6
+8	587	7716342549640187	Chapter01/01_CMake/CMakeFiles/Ch01_Sample01_CMake.dir/src/main.cpp.obj	3347272d1edf4d95
+67	312	7716379828316451	Chapter01/01_CMake/CMakeFiles/Ch01_Sample01_CMake.dir/src/main.cpp.obj	6a42d2ccc7be5dd2
+63	752	7716379828276559	_deps/glfw-build/src/CMakeFiles/glfw.dir/osmesa_context.c.obj	bd486f7ca859b390
+47	761	7716379828116988	_deps/glfw-build/src/CMakeFiles/glfw.dir/win32_thread.c.obj	14a7da74e002ed68
+43	768	7716379828067118	_deps/glfw-build/src/CMakeFiles/glfw.dir/win32_time.c.obj	4f2e86ab97f83233
+31	773	7716379827957412	_deps/glfw-build/src/CMakeFiles/glfw.dir/win32_init.c.obj	d32cea6b82743048
+24	777	7716379827887594	_deps/glfw-build/src/CMakeFiles/glfw.dir/vulkan.c.obj	2b03ee2aaeb5658a
+55	780	7716379828196776	_deps/glfw-build/src/CMakeFiles/glfw.dir/wgl_context.c.obj	af56208659250002
+15	783	7716379827797918	_deps/glfw-build/src/CMakeFiles/glfw.dir/init.c.obj	d666bb89dd06389c
+21	786	7716379827857672	_deps/glfw-build/src/CMakeFiles/glfw.dir/monitor.c.obj	6dac588a5ec2799
+28	789	7716379827917515	_deps/glfw-build/src/CMakeFiles/glfw.dir/window.c.obj	8c78fa6fafcea1e4
+12	793	7716379827756951	_deps/glfw-build/src/CMakeFiles/glfw.dir/context.c.obj	9f325022e722c044
+35	796	7716379827997304	_deps/glfw-build/src/CMakeFiles/glfw.dir/win32_joystick.c.obj	dade8d3579f2fcc4
+60	799	7716379828236664	_deps/glfw-build/src/CMakeFiles/glfw.dir/egl_context.c.obj	3850a0e1495415f3
+51	802	7716379828156880	_deps/glfw-build/src/CMakeFiles/glfw.dir/win32_window.c.obj	678d573ae48110e7
+39	831	7716379828027224	_deps/glfw-build/src/CMakeFiles/glfw.dir/win32_monitor.c.obj	acc7a756f186b417
+19	838	7716379827827751	_deps/glfw-build/src/CMakeFiles/glfw.dir/input.c.obj	4634eeca8bb38cd0
+839	1020	7716379836025837	_deps/glfw-build/src/glfw3.lib	4d04cacbd1048a0b
+1020	1423	7716379837844819	Chapter01/01_CMake/Ch01_Sample01_CMake_Debug.exe	86994c26d2cc8ef5
+24	100	7716471566878882	Chapter01/01_CMake/CMakeFiles/Ch01_Sample01_CMake.dir/src/main.cpp.obj	6a42d2ccc7be5dd2
+100	295	7716471567638885	Chapter01/01_CMake/Ch01_Sample01_CMake_Debug.exe	86994c26d2cc8ef5
+24	99	7716472470402037	Chapter01/01_CMake/CMakeFiles/Ch01_Sample01_CMake.dir/src/main.cpp.obj	6a42d2ccc7be5dd2
+100	258	7716472471165542	Chapter01/01_CMake/Ch01_Sample01_CMake_Debug.exe	86994c26d2cc8ef5
