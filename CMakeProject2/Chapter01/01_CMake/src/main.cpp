@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <../../../Shared/glfw/include/GLFW/glfw3.h>
+#include <GLFW/glfw3.h>
+#include <../../../Shared/taskflow/taskflow/taskflow.hpp>
 
 const uint32_t WIDTH = 1280;
 const uint32_t HEIGHT = 800;
@@ -21,13 +22,13 @@ GLFWwindow* InitWindow(const char* windowTitle, uint32_t& outWidth, uint32_t& ou
 	if (!glfwInit()) return nullptr;
 
 	//True full screen or taskbar showing
-	const bool isFullscreen = !outWidth || !outHeight;
+	const bool wantsWholeArea = !outWidth || !outHeight;
 	
 	//Set api settings to none
 	glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
 
 	//Allow resizeablility based on fullscreen
-	glfwWindowHint(GLFW_RESIZABLE, isFullscreen ? GLFW_FALSE : GLFW_TRUE);
+	glfwWindowHint(GLFW_RESIZABLE, wantsWholeArea ? GLFW_FALSE : GLFW_TRUE);
 
 	GLFWmonitor* monitor = glfwGetPrimaryMonitor();
 	const GLFWvidmode* mode = glfwGetVideoMode(monitor);
@@ -37,7 +38,7 @@ GLFWwindow* InitWindow(const char* windowTitle, uint32_t& outWidth, uint32_t& ou
 	int w = mode->width;
 	int h = mode->height;
 
-	if (isFullscreen) 
+	if (wantsWholeArea) 
 	{
 		//Get fulls size of monitor
 		glfwGetMonitorWorkarea(monitor, &x, &y, &w, &h);
@@ -59,7 +60,7 @@ GLFWwindow* InitWindow(const char* windowTitle, uint32_t& outWidth, uint32_t& ou
 	}
 
 	//Set window dimensions
-	if (isFullscreen) glfwSetWindowPos(window, x, y);
+	if (wantsWholeArea) glfwSetWindowPos(window, x, y);
 	glfwGetWindowSize(window, &w, &h);
 
 	outWidth = (uint32_t)w;
@@ -79,12 +80,38 @@ GLFWwindow* InitWindow(const char* windowTitle, uint32_t& outWidth, uint32_t& ou
 
 int main()
 {
-	printf("Hello World!\n");
+	tf::Taskflow taskflow;
+	std::vector<int> items{ 1, 2, 3, 4, 5, 6, 7, 8 };
 
-	GLFWwindow* window = InitWindow("GLFW example", (uint32_t&)WIDTH, (uint32_t&)HEIGHT);
+	auto task = taskflow.for_each_index(0u, uint32_t(items.size()), 1u, [&](int i)
+		{
+			printf("%i", items[i]);
+		}
+	).name("for_each_index");
+
+	taskflow.emplace([]()
+	{
+			printf("\nS - Start\n");
+		}).name("S").precede(task);
+	taskflow.emplace([]()
+	{
+			printf("\nT - End\n");
+		}).name("T").succeed(task);
+
+	std::ofstream os(".cache/taskflow.dot");
+	taskflow.dump(os);
+
+	tf::Executor executor;
+	executor.run(taskflow).wait();
+
+	uint32_t width = 1200;
+	uint32_t height = 800;
+
+	GLFWwindow* window = InitWindow("GLFW example", width, height);
 
 	while (!glfwWindowShouldClose(window)) {
 		glfwPollEvents();
+		printf("Window Running\n");
 	}
 
 	glfwDestroyWindow(window);

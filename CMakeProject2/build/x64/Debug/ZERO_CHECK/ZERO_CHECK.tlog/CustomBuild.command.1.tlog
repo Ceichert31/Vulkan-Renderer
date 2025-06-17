@@ -1,0 +1,10 @@
+^E:\VULKANPROJECT\VULKAN-RENDERER\CMAKEPROJECT2\BUILD\CMAKEFILES\94599EEDEA19DC420E6CBD71AA2DCF7C\GENERATE.STAMP.RULE
+setlocal
+E:\VS\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -SE:/VulkanProject/Vulkan-Renderer/CMakeProject2 -BE:/VulkanProject/Vulkan-Renderer/CMakeProject2/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/VulkanProject/Vulkan-Renderer/CMakeProject2/build/CMakeProject2.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

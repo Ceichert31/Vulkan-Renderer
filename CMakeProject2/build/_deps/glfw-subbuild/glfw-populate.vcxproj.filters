@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\VulkanProject\Vulkan-Renderer\CMakeProject2\build\_deps\glfw-subbuild\CMakeFiles\94af2a31a77c9dc813c35508863ca047\glfw-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\VulkanProject\Vulkan-Renderer\CMakeProject2\build\_deps\glfw-subbuild\CMakeFiles\94af2a31a77c9dc813c35508863ca047\glfw-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\VulkanProject\Vulkan-Renderer\CMakeProject2\build\_deps\glfw-subbuild\CMakeFiles\94af2a31a77c9dc813c35508863ca047\glfw-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\VulkanProject\Vulkan-Renderer\CMakeProject2\build\_deps\glfw-subbuild\CMakeFiles\94af2a31a77c9dc813c35508863ca047\glfw-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\VulkanProject\Vulkan-Renderer\CMakeProject2\build\_deps\glfw-subbuild\CMakeFiles\94af2a31a77c9dc813c35508863ca047\glfw-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\VulkanProject\Vulkan-Renderer\CMakeProject2\build\_deps\glfw-subbuild\CMakeFiles\94af2a31a77c9dc813c35508863ca047\glfw-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\VulkanProject\Vulkan-Renderer\CMakeProject2\build\_deps\glfw-subbuild\CMakeFiles\94af2a31a77c9dc813c35508863ca047\glfw-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\VulkanProject\Vulkan-Renderer\CMakeProject2\build\_deps\glfw-subbuild\CMakeFiles\94af2a31a77c9dc813c35508863ca047\glfw-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\VulkanProject\Vulkan-Renderer\CMakeProject2\build\_deps\glfw-subbuild\CMakeFiles\7e7e9971d44f3836d7dd4ac3c06fe922\glfw-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\VulkanProject\Vulkan-Renderer\CMakeProject2\build\_deps\glfw-subbuild\CMakeFiles\bf3fb0d8ff7b3b940892de27e2371484\glfw-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\VulkanProject\Vulkan-Renderer\CMakeProject2\build\_deps\glfw-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\VulkanProject\Vulkan-Renderer\CMakeProject2\build\_deps\glfw-subbuild\CMakeFiles\glfw-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0739E6A5-F5C0-341F-BFEE-4D4C75DFB91D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

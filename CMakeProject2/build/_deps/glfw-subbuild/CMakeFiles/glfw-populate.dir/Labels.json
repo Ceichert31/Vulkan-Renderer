@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/VulkanProject/Vulkan-Renderer/CMakeProject2/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate"
+		},
+		{
+			"file" : "E:/VulkanProject/Vulkan-Renderer/CMakeProject2/build/_deps/glfw-subbuild/CMakeFiles/bf3fb0d8ff7b3b940892de27e2371484/glfw-populate.rule"
+		},
+		{
+			"file" : "E:/VulkanProject/Vulkan-Renderer/CMakeProject2/build/_deps/glfw-subbuild/CMakeFiles/7e7e9971d44f3836d7dd4ac3c06fe922/glfw-populate-complete.rule"
+		},
+		{
+			"file" : "E:/VulkanProject/Vulkan-Renderer/CMakeProject2/build/_deps/glfw-subbuild/CMakeFiles/94af2a31a77c9dc813c35508863ca047/glfw-populate-build.rule"
+		},
+		{
+			"file" : "E:/VulkanProject/Vulkan-Renderer/CMakeProject2/build/_deps/glfw-subbuild/CMakeFiles/94af2a31a77c9dc813c35508863ca047/glfw-populate-configure.rule"
+		},
+		{
+			"file" : "E:/VulkanProject/Vulkan-Renderer/CMakeProject2/build/_deps/glfw-subbuild/CMakeFiles/94af2a31a77c9dc813c35508863ca047/glfw-populate-download.rule"
+		},
+		{
+			"file" : "E:/VulkanProject/Vulkan-Renderer/CMakeProject2/build/_deps/glfw-subbuild/CMakeFiles/94af2a31a77c9dc813c35508863ca047/glfw-populate-install.rule"
+		},
+		{
+			"file" : "E:/VulkanProject/Vulkan-Renderer/CMakeProject2/build/_deps/glfw-subbuild/CMakeFiles/94af2a31a77c9dc813c35508863ca047/glfw-populate-mkdir.rule"
+		},
+		{
+			"file" : "E:/VulkanProject/Vulkan-Renderer/CMakeProject2/build/_deps/glfw-subbuild/CMakeFiles/94af2a31a77c9dc813c35508863ca047/glfw-populate-patch.rule"
+		},
+		{
+			"file" : "E:/VulkanProject/Vulkan-Renderer/CMakeProject2/build/_deps/glfw-subbuild/CMakeFiles/94af2a31a77c9dc813c35508863ca047/glfw-populate-test.rule"
+		},
+		{
+			"file" : "E:/VulkanProject/Vulkan-Renderer/CMakeProject2/build/_deps/glfw-subbuild/CMakeFiles/94af2a31a77c9dc813c35508863ca047/glfw-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glfw-populate"
+		],
+		"name" : "glfw-populate"
+	}
+}
