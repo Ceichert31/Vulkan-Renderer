@@ -39,7 +39,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
       
       The C compiler identification is MSVC, found in:
-        E:/VulkanRenderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/3.31.6-msvc6/CompilerIdC/CMakeCCompilerId.exe
+        E:/Vulkan-Renderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/3.31.6-msvc6/CompilerIdC/CMakeCCompilerId.exe
       
   -
     kind: "message-v1"
@@ -51,7 +51,7 @@ events:
     message: |
       Detecting C compiler /showIncludes prefix:
         main.c
-        Note: including file: E:\\VulkanRenderer\\VulkanRenderer\\out\\build\\x64-debug\\CMakeFiles\\ShowIncludes\\foo.h
+        Note: including file: E:\\Vulkan-Renderer\\VulkanRenderer\\out\\build\\x64-debug\\CMakeFiles\\ShowIncludes\\foo.h
         
       Found prefix "Note: including file: "
   -
@@ -85,7 +85,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
       
       The CXX compiler identification is MSVC, found in:
-        E:/VulkanRenderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/CMakeCXXCompilerId.exe
+        E:/Vulkan-Renderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/CMakeCXXCompilerId.exe
       
   -
     kind: "message-v1"
@@ -97,7 +97,7 @@ events:
     message: |
       Detecting CXX compiler /showIncludes prefix:
         main.c
-        Note: including file: E:\\VulkanRenderer\\VulkanRenderer\\out\\build\\x64-debug\\CMakeFiles\\ShowIncludes\\foo.h
+        Note: including file: E:\\Vulkan-Renderer\\VulkanRenderer\\out\\build\\x64-debug\\CMakeFiles\\ShowIncludes\\foo.h
         
       Found prefix "Note: including file: "
   -
@@ -109,8 +109,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "E:/VulkanRenderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-bz6vhm"
-      binary: "E:/VulkanRenderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-bz6vhm"
+      source: "E:/Vulkan-Renderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-7bdnf0"
+      binary: "E:/Vulkan-Renderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-7bdnf0"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
@@ -124,11 +124,11 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/VulkanRenderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-bz6vhm'
+        Change Dir: 'E:/Vulkan-Renderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-7bdnf0'
         
-        Run Build Command(s): e:\\vs\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_78fff
-        [1/2] E:\\VS\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Ob0 /Od /RTC1 -Zi /showIncludes /FoCMakeFiles\\cmTC_78fff.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_78fff.dir\\ /FS -c E:\\VS\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\VS\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_78fff.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- E:\\VS\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_78fff.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_78fff.exe /implib:cmTC_78fff.lib /pdb:cmTC_78fff.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): e:\\vs\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_d1f98
+        [1/2] E:\\VS\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Ob0 /Od /RTC1 -Zi /showIncludes /FoCMakeFiles\\cmTC_d1f98.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_d1f98.dir\\ /FS -c E:\\VS\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\VS\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_d1f98.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- E:\\VS\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d1f98.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_d1f98.exe /implib:cmTC_d1f98.lib /pdb:cmTC_d1f98.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -168,8 +168,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "E:/VulkanRenderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-m8dh86"
-      binary: "E:/VulkanRenderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-m8dh86"
+      source: "E:/Vulkan-Renderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-rmu623"
+      binary: "E:/Vulkan-Renderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-rmu623"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
@@ -184,11 +184,11 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/VulkanRenderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-m8dh86'
+        Change Dir: 'E:/Vulkan-Renderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-rmu623'
         
-        Run Build Command(s): e:\\vs\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_31063
-        [1/2] E:\\VS\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -Zi /showIncludes /FoCMakeFiles\\cmTC_31063.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_31063.dir\\ /FS -c E:\\VS\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\VS\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_31063.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- E:\\VS\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_31063.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_31063.exe /implib:cmTC_31063.lib /pdb:cmTC_31063.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): e:\\vs\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_02a59
+        [1/2] E:\\VS\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -Zi /showIncludes /FoCMakeFiles\\cmTC_02a59.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_02a59.dir\\ /FS -c E:\\VS\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\VS\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_02a59.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- E:\\VS\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_02a59.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_02a59.exe /implib:cmTC_02a59.lib /pdb:cmTC_02a59.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -219,10 +219,6 @@ events:
       Running the CXX compiler's linker: "E:/VS/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.44.35207.1
       Copyright (C) Microsoft Corporation.  All rights reserved.
-...
-
----
-events:
   -
     kind: "try_compile-v1"
     backtrace:
@@ -234,12 +230,12 @@ events:
       - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "/Repos/vcpkg/installed/x64-windows/share/glfw3/glfw3Config.cmake:2 (find_dependency)"
       - "/Repos/vcpkg/scripts/buildsystems/vcpkg.cmake:896 (_find_package)"
-      - "CMakeLists.txt:24 (find_package)"
+      - "CMakeLists.txt:25 (find_package)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "E:/VulkanRenderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-qmsu05"
-      binary: "E:/VulkanRenderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-qmsu05"
+      source: "E:/Vulkan-Renderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-iz8060"
+      binary: "E:/Vulkan-Renderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-iz8060"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
@@ -253,13 +249,13 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'E:/VulkanRenderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-qmsu05'
+        Change Dir: 'E:/Vulkan-Renderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-iz8060'
         
-        Run Build Command(s): e:\\vs\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_355de
-        [1/2] E:\\VS\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Ob0 /Od /RTC1 -Zi /showIncludes /FoCMakeFiles\\cmTC_355de.dir\\src.c.obj /FdCMakeFiles\\cmTC_355de.dir\\ /FS -c E:\\VulkanRenderer\\VulkanRenderer\\out\\build\\x64-debug\\CMakeFiles\\CMakeScratch\\TryCompile-qmsu05\\src.c
-        FAILED: CMakeFiles/cmTC_355de.dir/src.c.obj 
-        E:\\VS\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Ob0 /Od /RTC1 -Zi /showIncludes /FoCMakeFiles\\cmTC_355de.dir\\src.c.obj /FdCMakeFiles\\cmTC_355de.dir\\ /FS -c E:\\VulkanRenderer\\VulkanRenderer\\out\\build\\x64-debug\\CMakeFiles\\CMakeScratch\\TryCompile-qmsu05\\src.c
-        E:\\VulkanRenderer\\VulkanRenderer\\out\\build\\x64-debug\\CMakeFiles\\CMakeScratch\\TryCompile-qmsu05\\src.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+        Run Build Command(s): e:\\vs\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_02c2c
+        [1/2] E:\\VS\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Ob0 /Od /RTC1 -Zi /showIncludes /FoCMakeFiles\\cmTC_02c2c.dir\\src.c.obj /FdCMakeFiles\\cmTC_02c2c.dir\\ /FS -c E:\\Vulkan-Renderer\\VulkanRenderer\\out\\build\\x64-debug\\CMakeFiles\\CMakeScratch\\TryCompile-iz8060\\src.c
+        FAILED: CMakeFiles/cmTC_02c2c.dir/src.c.obj 
+        E:\\VS\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Ob0 /Od /RTC1 -Zi /showIncludes /FoCMakeFiles\\cmTC_02c2c.dir\\src.c.obj /FdCMakeFiles\\cmTC_02c2c.dir\\ /FS -c E:\\Vulkan-Renderer\\VulkanRenderer\\out\\build\\x64-debug\\CMakeFiles\\CMakeScratch\\TryCompile-iz8060\\src.c
+        E:\\Vulkan-Renderer\\VulkanRenderer\\out\\build\\x64-debug\\CMakeFiles\\CMakeScratch\\TryCompile-iz8060\\src.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
         ninja: build stopped: subcommand failed.
         
       exitCode: 1
@@ -273,12 +269,12 @@ events:
       - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "/Repos/vcpkg/installed/x64-windows/share/glfw3/glfw3Config.cmake:2 (find_dependency)"
       - "/Repos/vcpkg/scripts/buildsystems/vcpkg.cmake:896 (_find_package)"
-      - "CMakeLists.txt:24 (find_package)"
+      - "CMakeLists.txt:25 (find_package)"
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "E:/VulkanRenderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-1voc8j"
-      binary: "E:/VulkanRenderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-1voc8j"
+      source: "E:/Vulkan-Renderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-tmclbj"
+      binary: "E:/Vulkan-Renderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-tmclbj"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
@@ -292,14 +288,14 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'E:/VulkanRenderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-1voc8j'
+        Change Dir: 'E:/Vulkan-Renderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-tmclbj'
         
-        Run Build Command(s): e:\\vs\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_e85c0
-        [1/2] E:\\VS\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Ob0 /Od /RTC1 -Zi /showIncludes /FoCMakeFiles\\cmTC_e85c0.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_e85c0.dir\\ /FS -c E:\\VulkanRenderer\\VulkanRenderer\\out\\build\\x64-debug\\CMakeFiles\\CMakeScratch\\TryCompile-1voc8j\\CheckFunctionExists.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\VS\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_e85c0.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- E:\\VS\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e85c0.dir\\CheckFunctionExists.c.obj  /out:cmTC_e85c0.exe /implib:cmTC_e85c0.lib /pdb:cmTC_e85c0.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        FAILED: cmTC_e85c0.exe 
-        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\VS\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_e85c0.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- E:\\VS\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e85c0.dir\\CheckFunctionExists.c.obj  /out:cmTC_e85c0.exe /implib:cmTC_e85c0.lib /pdb:cmTC_e85c0.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        LINK Pass 1: command "E:\\VS\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e85c0.dir\\CheckFunctionExists.c.obj /out:cmTC_e85c0.exe /implib:cmTC_e85c0.lib /pdb:cmTC_e85c0.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_e85c0.dir/intermediate.manifest CMakeFiles\\cmTC_e85c0.dir/manifest.res" failed (exit code 1104) with the following output:
+        Run Build Command(s): e:\\vs\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_ea55e
+        [1/2] E:\\VS\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Ob0 /Od /RTC1 -Zi /showIncludes /FoCMakeFiles\\cmTC_ea55e.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_ea55e.dir\\ /FS -c E:\\Vulkan-Renderer\\VulkanRenderer\\out\\build\\x64-debug\\CMakeFiles\\CMakeScratch\\TryCompile-tmclbj\\CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\VS\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_ea55e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- E:\\VS\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ea55e.dir\\CheckFunctionExists.c.obj  /out:cmTC_ea55e.exe /implib:cmTC_ea55e.lib /pdb:cmTC_ea55e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_ea55e.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\VS\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_ea55e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- E:\\VS\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ea55e.dir\\CheckFunctionExists.c.obj  /out:cmTC_ea55e.exe /implib:cmTC_ea55e.lib /pdb:cmTC_ea55e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "E:\\VS\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ea55e.dir\\CheckFunctionExists.c.obj /out:cmTC_ea55e.exe /implib:cmTC_ea55e.lib /pdb:cmTC_ea55e.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_ea55e.dir/intermediate.manifest CMakeFiles\\cmTC_ea55e.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: cannot open file 'pthreads.lib'\x0d
         ninja: build stopped: subcommand failed.
         
@@ -314,12 +310,12 @@ events:
       - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "/Repos/vcpkg/installed/x64-windows/share/glfw3/glfw3Config.cmake:2 (find_dependency)"
       - "/Repos/vcpkg/scripts/buildsystems/vcpkg.cmake:896 (_find_package)"
-      - "CMakeLists.txt:24 (find_package)"
+      - "CMakeLists.txt:25 (find_package)"
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "E:/VulkanRenderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-84k5o1"
-      binary: "E:/VulkanRenderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-84k5o1"
+      source: "E:/Vulkan-Renderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-8apk6v"
+      binary: "E:/Vulkan-Renderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-8apk6v"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
@@ -333,14 +329,14 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'E:/VulkanRenderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-84k5o1'
+        Change Dir: 'E:/Vulkan-Renderer/VulkanRenderer/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-8apk6v'
         
-        Run Build Command(s): e:\\vs\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_685ad
-        [1/2] E:\\VS\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Ob0 /Od /RTC1 -Zi /showIncludes /FoCMakeFiles\\cmTC_685ad.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_685ad.dir\\ /FS -c E:\\VulkanRenderer\\VulkanRenderer\\out\\build\\x64-debug\\CMakeFiles\\CMakeScratch\\TryCompile-84k5o1\\CheckFunctionExists.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\VS\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_685ad.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- E:\\VS\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_685ad.dir\\CheckFunctionExists.c.obj  /out:cmTC_685ad.exe /implib:cmTC_685ad.lib /pdb:cmTC_685ad.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        FAILED: cmTC_685ad.exe 
-        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\VS\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_685ad.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- E:\\VS\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_685ad.dir\\CheckFunctionExists.c.obj  /out:cmTC_685ad.exe /implib:cmTC_685ad.lib /pdb:cmTC_685ad.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        LINK Pass 1: command "E:\\VS\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_685ad.dir\\CheckFunctionExists.c.obj /out:cmTC_685ad.exe /implib:cmTC_685ad.lib /pdb:cmTC_685ad.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_685ad.dir/intermediate.manifest CMakeFiles\\cmTC_685ad.dir/manifest.res" failed (exit code 1104) with the following output:
+        Run Build Command(s): e:\\vs\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_1a624
+        [1/2] E:\\VS\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Ob0 /Od /RTC1 -Zi /showIncludes /FoCMakeFiles\\cmTC_1a624.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_1a624.dir\\ /FS -c E:\\Vulkan-Renderer\\VulkanRenderer\\out\\build\\x64-debug\\CMakeFiles\\CMakeScratch\\TryCompile-8apk6v\\CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\VS\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_1a624.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- E:\\VS\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_1a624.dir\\CheckFunctionExists.c.obj  /out:cmTC_1a624.exe /implib:cmTC_1a624.lib /pdb:cmTC_1a624.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_1a624.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\VS\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_1a624.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- E:\\VS\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_1a624.dir\\CheckFunctionExists.c.obj  /out:cmTC_1a624.exe /implib:cmTC_1a624.lib /pdb:cmTC_1a624.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "E:\\VS\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_1a624.dir\\CheckFunctionExists.c.obj /out:cmTC_1a624.exe /implib:cmTC_1a624.lib /pdb:cmTC_1a624.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_1a624.dir/intermediate.manifest CMakeFiles\\cmTC_1a624.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: cannot open file 'pthread.lib'\x0d
         ninja: build stopped: subcommand failed.
         

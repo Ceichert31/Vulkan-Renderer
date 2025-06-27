@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\VulkanRenderer\\VulkanRenderer\\",
+  "WorkspaceRootPath": "E:\\Vulkan-Renderer\\VulkanRenderer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\VulkanRenderer\\VulkanRenderer\\VulkanRenderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VulkanRenderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Vulkan-Renderer\\VulkanRenderer\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\VulkanRenderer\\VulkanRenderer\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Vulkan-Renderer\\VulkanRenderer\\CMakePresets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CMakePresets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Vulkan-Renderer\\VulkanRenderer\\VulkanRenderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VulkanRenderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +34,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VulkanRenderer.cpp",
-              "DocumentMoniker": "E:\\VulkanRenderer\\VulkanRenderer\\VulkanRenderer.cpp",
-              "RelativeDocumentMoniker": "VulkanRenderer.cpp",
-              "ToolTip": "E:\\VulkanRenderer\\VulkanRenderer\\VulkanRenderer.cpp",
-              "RelativeToolTip": "VulkanRenderer.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-27T00:31:24.579Z",
+              "DocumentIndex": 1,
+              "Title": "CMakePresets.json",
+              "DocumentMoniker": "E:\\Vulkan-Renderer\\VulkanRenderer\\CMakePresets.json",
+              "RelativeDocumentMoniker": "CMakePresets.json",
+              "ToolTip": "E:\\Vulkan-Renderer\\VulkanRenderer\\CMakePresets.json",
+              "RelativeToolTip": "CMakePresets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-27T17:08:00.387Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CMakeLists.txt",
-              "DocumentMoniker": "E:\\VulkanRenderer\\VulkanRenderer\\CMakeLists.txt",
+              "DocumentMoniker": "E:\\Vulkan-Renderer\\VulkanRenderer\\CMakeLists.txt",
               "RelativeDocumentMoniker": "CMakeLists.txt",
-              "ToolTip": "E:\\VulkanRenderer\\VulkanRenderer\\CMakeLists.txt",
+              "ToolTip": "E:\\Vulkan-Renderer\\VulkanRenderer\\CMakeLists.txt",
               "RelativeToolTip": "CMakeLists.txt",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-06-27T00:16:34.964Z",
+              "WhenOpened": "2025-06-27T17:07:38.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VulkanRenderer.cpp",
+              "DocumentMoniker": "E:\\Vulkan-Renderer\\VulkanRenderer\\VulkanRenderer.cpp",
+              "RelativeDocumentMoniker": "VulkanRenderer.cpp",
+              "ToolTip": "E:\\Vulkan-Renderer\\VulkanRenderer\\VulkanRenderer.cpp",
+              "RelativeToolTip": "VulkanRenderer.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-27T00:31:24.579Z",
               "EditorCaption": ""
             }
           ]
