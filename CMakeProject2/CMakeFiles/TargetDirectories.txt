@@ -1,2 +1,0 @@
-E:/VulkanProject/CMakeProject2/CMakeFiles/edit_cache.dir
-E:/VulkanProject/CMakeProject2/CMakeFiles/rebuild_cache.dir
